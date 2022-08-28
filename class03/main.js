@@ -28,9 +28,9 @@ function saveData(){
 
     dataAmount++;
 
-    // document.querySelector('#namesValue').value = '';
-    // document.querySelector('#lastnamesValue').value = '';
-    // document.querySelector('#telephoneValue').value = '';
+    document.querySelector('#namesValue').value = '';
+    document.querySelector('#lastnamesValue').value = '';
+    document.querySelector('#telephoneValue').value = '';
 
     if(dataAmount == maxDataAmount){
 
